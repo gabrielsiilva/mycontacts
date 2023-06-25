@@ -67,7 +67,6 @@ class ContactController {
     const contact = await ContactsRepository.update(id, {
       name, email, phone, category_id,
     });
-
     response.json(contact);
   }
 
