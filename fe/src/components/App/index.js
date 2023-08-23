@@ -16,7 +16,6 @@ function App() {
         <GlobalStyles />
         <Container>
           <Header />
-
           <Routes />
         </Container>
       </ThemeProvider>
